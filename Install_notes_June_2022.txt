@@ -1,0 +1,31 @@
+Install notes from June 2022. SRS.
+
+I have  a fairly recent anaconda installation that I am using on my macbook pro, python version is 3.9.12.
+
+(*) I needed to install the h5py module and did so via conda:
+
+conda install h5py
+
+(*) I installed pycroscopy via conda with these commands:
+
+conda config --append channels conda-forge
+conda install pycroscopy
+
+These are the modeuls and version numbers that were installed via the above command:
+ 
+  gwyfile            conda-forge/noarch::gwyfile-0.2.0-py_0
+  igor               conda-forge/noarch::igor-0.3-py_3
+  ipyfilechooser     conda-forge/noarch::ipyfilechooser-0.6.0-pyhd8ed1ab_0
+  numpy_groupies     conda-forge/noarch::numpy_groupies-0.9.7-py_0
+  pycroscopy         conda-forge/noarch::pycroscopy-0.60.8-pyhd8ed1ab_0
+  pyusid             conda-forge/noarch::pyusid-0.0.10-pyhd8ed1ab_0
+  sidpy              conda-forge/noarch::sidpy-0.0.9-pyhd8ed1ab_0
+
+(*) Spiepy was not available via conda, so I installed (v 0.2.0)  using pip:
+
+pip install SPIEPy
+
+(*) Installed access2theMatrix (v 0.4.2) using pip:
+
+pip install access2theMatrix
+
